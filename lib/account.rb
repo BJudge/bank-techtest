@@ -1,6 +1,12 @@
-
+require 'deposit'
+require 'withdraw'
+require 'date'
 class Account
-  def balance
-    0
+  attr_reader :balance
+
+  def initialize
+    @balance = 0
   end
+
+
 end
